@@ -1,5 +1,7 @@
 # Domino Chain Reaction Animation
 
+![Preview](renders/preview_6_f1396.png)
+
 A college Computer Graphics project made in **Blender** (works on 4.x and
 5.x). ~450 colourful dominoes topple across a large polished wooden table —
 through curves, an S-path, a zig-zag, a circle, up a staircase, over a
@@ -16,6 +18,8 @@ reproducible and easy to tweak.
 | `generate_domino_scene.py` | Self-contained generator: builds the room, table, dominoes, mechanisms, physics, lights and camera, bakes the rigid-body simulation, and times the camera to the baked sim. |
 | `domino_chain_reaction.blend` | The generated scene with the simulation **already baked** — open and press Play, or render straight away. |
 | `renders/` | A few preview stills from the final scene. |
+| `domino_chain_reaction.mp4` | The rendered animation (1080p, Eevee, about 59 seconds). |
+| `PROJECT_GUIDE.md` | Beginner-friendly explanation of how the scene and physics work. |
 
 ## Open and render the .blend
 
